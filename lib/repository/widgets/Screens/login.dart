@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled2/repository/widgets/Screens/Bottom%20Nav/bottom_navigation.dart';
 import 'package:untitled2/repository/widgets/ui_helper/assets_image.dart';
 
 import 'home_screen.dart';
@@ -53,7 +54,7 @@ class _LoginState extends State<Login> {
                         width: 295,
                         child: ElevatedButton(
                           onPressed: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>BottomNavigation()));
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Color(0XFFE23744),
